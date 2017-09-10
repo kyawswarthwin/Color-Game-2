@@ -1,0 +1,71 @@
+body {
+    background-color: #232323;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-weight: normal;
+    background-color: steelblue;
+    margin: 0;
+    padding: 20px 0;
+}
+
+#displayColor {
+    font-size: 200%;
+}
+
+#menu {
+    background-color: white;
+    text-align: center;
+    height: 30px;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    color: steelblue;
+    font-weight: 700;
+    font-size: inherit;
+    height: 100%;
+    outline: none;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+}
+
+.clicked {
+    color: white;
+    background-color: steelblue;
+}
+
+#displayMessage {
+    display: inline-block;
+    width: 20%;
+}
+
+.color {
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: red;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+}
+
+#colors {
+    margin: 20px auto;
+    max-width: 600px;
+}
